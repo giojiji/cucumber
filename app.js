@@ -14,6 +14,4 @@ if(user.value == "giorgi" && pass.value == "1234") {
 else {
     statusacces.innerText = "your password is wrong"
 }
-
-
 }
