@@ -8,10 +8,9 @@ pass = document.getElementById("pass")
 
 if(user.value == "giorgi" && pass.value == "1234") {
     statusacces.innerText = "you are wellcome"
-} else if (user.value.includes("@")) {
+} else if (pass.value.includes("@")) {
     statusacces.innerText = "inccorect format"
 }
-
 else {
     statusacces.innerText = "your password is wrong"
 }
